@@ -1,0 +1,36 @@
+{
+  "components": [
+    {
+      "tag": "hello-world",
+      "dependencies": [],
+      "componentClass": "HelloWorld",
+      "componentPath": "components/hello-world/hello-world.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "name",
+          "type": "String",
+          "attr": "name"
+        },
+        {
+          "name": "showButton",
+          "type": "Boolean",
+          "attr": "show-button"
+        }
+      ],
+      "events": [
+        {
+          "event": "sayName"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.7",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}
